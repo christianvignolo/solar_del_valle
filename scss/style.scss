@@ -1,0 +1,220 @@
+ /*CABAÑAS*/
+
+.parrafo{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cabañas__inicio{
+    text-decoration: none;
+    box-shadow: 0 5px 30px rgb(0, 0, 0 / 50%);
+    border-radius: 10px;
+    .cabañas__inicio--columnas{
+        background-color: white;
+        color: #ffce84; 
+        text-align: center;
+        text-shadow: 1px 1px orangered; 
+        padding: 20px;
+    }
+
+}
+
+
+
+
+/*CS RM CAL*/
+
+.cabañas__descripcion{
+    margin-left: 10px;
+    padding: 10px;
+    .cabañas__descripcion--col2{
+        margin-left: 20px;
+    
+    }
+
+}
+
+
+
+
+/*ACTIVIDADES*/
+
+.actividades__imagenes{
+    border-radius: 10px;
+    box-shadow: 0 5px 30px rgb(0, 0, 0 / 50%);
+}
+
+.actividades__titulos{
+    padding: 5px;
+	color: #f4ea45;
+    text-shadow: 1px 1px orangered;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.actividades__parrafos{
+    padding: 5px;
+    text-align: justify;
+}
+
+/*UBICACION*/
+
+.ubicacion__imagenes{
+    border-radius: 10px;
+    box-shadow: 0 5px 30px rgb(0, 0, 0 / 50%);
+}            
+
+.ubicacion__numeros{
+    font-size: 100px;
+    padding: 5px;
+	color: #f4ea45;
+    text-shadow: 1px 1px orangered;
+    text-align: center;
+}
+
+.ubicacion__parrafo{
+    padding: 5px;
+    text-align:justify;
+}
+.parrmap{
+	padding: 20px;
+	text-align: center;
+	letter-spacing: 7px;
+	font-size: 15px;
+	text-shadow: 1px 1px;
+}
+
+@media only screen and (max-width: 420px){
+    .ubicacion__numeros{
+        font-size: 50px;
+    }
+}
+
+
+/*CONTACTO*/
+
+.logo__fondo {
+    background-image: url(imagenes/logo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 80% 85%;
+}
+
+.formulario__referencia{
+    padding: 3px;
+    .formulario__referencia--imagen{
+        padding: 3px;
+    }
+
+}
+
+
+
+.fechas__inout{
+    display: inline-block;
+    border-color: grey;
+}
+
+
+/*NAV*/
+
+.nav__links:hover{
+    text-decoration: underline;
+    transition-duration: .5s;
+}
+
+
+            
+            /*FOOTER*/
+
+.boton__whatsapp{
+    border: 1px solid greenyellow;
+    border-radius: 20px;
+    background-color: greenyellow;
+    bottom: 25px;
+	position: fixed;
+	z-index: 1;
+    a{
+        text-decoration: none;
+        color:white;
+        font-size: small;
+        img{
+            color: white;
+        }
+
+    }
+
+}
+.boton__whatsapp:hover{
+    transition-duration: 1s;
+	transform: scale(1.1,1.1);
+}
+
+.boton__whatsapp a:hover{
+    color: orange;
+}
+
+.footer__mapa:hover{
+    color: #ffce84;
+}
+
+.footer__estilos{
+    background-color: rgb(146, 140, 140);
+    .footer__estilos--h4{
+        padding: 5px;
+    }
+
+}
+
+.footer__estilos--parrafos{
+    padding: 5px;
+    color: rgb(24, 24, 24);
+    display: inline-block;
+}
+
+.footer__imagenes{
+    border: solid 2px;
+    border-radius: 75px;
+    border-color: black;
+}
+.footer__imagenes--wapp:hover{
+    border: solid 2px;
+    border-radius: 75px;
+    border-color: yellowgreen;
+}
+
+.footer__imagenes--email:hover{
+    border: solid 2px;
+    border-radius: 75px;
+    border-color: red;
+}
+
+.footer__imagenes--facebook:hover{
+    border: solid 2px;
+    border-radius: 75px;
+    border-color: blue;
+}
+
+.footer__final{
+    padding: 5px;
+    background-color: black;
+    text-align: center;
+}
+
+
+        /*Estilos Generales*/
+
+body{
+    background-color: #f7dfbc; 
+    
+}
+
+.logo__estilos{
+    font-family: "Lobster", sans-serif;
+    font-size: xx-large;
+}
+
+h3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
